@@ -33,7 +33,7 @@ public class MovingEye extends JFrame{
 			int mEyeY=this.getHeight()/2;
 			
 			this.drawCircle(g,mEyeX, mEyeY, RADIUS_EYES);
-			    
+			      
 			int distanceX = _mouseX-mEyeX;
 			int distanceY = _mouseY-mEyeY;
 			double distance = Math.sqrt(distanceX*distanceX+distanceY*distanceY);
